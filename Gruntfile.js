@@ -9,7 +9,7 @@ module.exports = function( grunt ) {
 
 		addtextdomain: {
 			options: {
-				textdomain: 'omnigo-plugin',
+				textdomain: 'ocanel-plugin',
 			},
 			update_all_domains: {
 				options: {
@@ -32,8 +32,8 @@ module.exports = function( grunt ) {
 				options: {
 					domainPath: '/languages',
 					exclude: [ '\.git/*', 'bin/*', 'node_modules/*', 'tests/*' ],
-					mainFile: 'omnigo-plugin.php',
-					potFilename: 'omnigo-plugin.pot',
+					mainFile: 'ocanel-plugin.php',
+					potFilename: 'ocanel-plugin.pot',
 					potHeaders: {
 						poedit: true,
 						'x-poedit-keywordslist': true
