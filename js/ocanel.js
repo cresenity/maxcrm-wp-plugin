@@ -1,7 +1,4 @@
-// SDK live (sdk-main.js, di-serve di /livechat/sdk) membaca window.chatwootSettings,
-// BUKAN window.ocanelSettings/omnigoSettings -- nama field di dalamnya (locale/type/
-// position/launcherTitle) tetap sama, cuma pembungkusnya yang salah nama sebelum ini.
-window.chatwootSettings = {
+window.ocanelSettings = {
 	locale: ocanel_widget_locale,
 	type: ocanel_widget_type,
 	position: ocanel_widget_position,
